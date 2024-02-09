@@ -1,6 +1,6 @@
 ---
 created: 2024-02-09T07:12:11+05:30
-modified: 2024-02-09T07:13:08+05:30
+modified: 2024-02-09T07:15:40+05:30
 ---
 
 # Trying something
@@ -8,3 +8,11 @@ modified: 2024-02-09T07:13:08+05:30
 # This note should be in a subfolder
 - hello
 - world
+
+```python
+import os
+
+curr_path = os.getcwd()
+print(f"Current directory: {curr_path}")
+print("Hellow, world")
+```
